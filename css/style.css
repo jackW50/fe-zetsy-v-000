@@ -1,6 +1,9 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font {
+  url("../fonts/Baskerville.ttc")
+}
 
 /*////////// Global Styles //////////*/
 
@@ -18,3 +21,11 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*//// Layout ////*/
+
+.col-1 {
+  float: left;
+  width: 24%;
+  margin-left: 1%;
+}
